@@ -1,0 +1,36 @@
+  body {
+            font-family: 'Roboto', sans-serif;
+            background: #00539f;
+            color: #FFF;
+        }
+        a{
+            color: #FFF;
+        }
+        .header {
+            padding: 20px;
+            background: white;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+        }
+        .logo {
+                max-width: 100%; /* Ensures the logo does not exceed its container */
+                height: auto; /* Maintains aspect ratio */
+            }
+
+            
+       .logo2 {
+            height: 150px;
+        }
+
+        .content {
+            padding: 0 20px;
+            border-radius: 10px;
+        }
+        @media(max-width:992px){
+            .mobile-only{
+                .text-start,.text-end{
+                    text-align: center!important;
+                    margin-top: 15px;
+                }
+                .text-end{margin-bottom: 15px;}
+            }
+        }
